@@ -1,0 +1,47 @@
+
+let myObject = {
+    // we can use the "" notation for the key
+    "firstname": "Gerard",
+    // ... or just specify it this way if we want
+    "name": "Lambert",
+    // we can use any type for the value
+    "age": 42
+  };
+  
+  // we can use the [] notation to access values
+  console.log(myObject["age"]); // 25
+  
+  // ... or the . notation
+  console.log(myObject.firstname); // Gerard
+  
+  // we can assign a new value
+  myObject.age = 54;
+  
+  // ... and there's a special keyword to delete keys
+  delete myObject["name"];
+  
+  console.log(myObject); // {firstname: "Gerard", age: 54}
+  
+  let askTvSerie = {
+    // we can use the "" notation for the key
+    "year": "2003",
+    // ... or just specify it this way if we want
+    "name": "Lambert",
+    // we can use any type for the value
+    "member": 5
+  };
+  
+  // we can use the [] notation to access values
+  console.log(askTvSerie["member"]); // 25
+  
+  // ... or the . notation
+  console.log(askTvSerie.year); // Gerard
+  
+  // we can assign a new value
+  askTvSerie.member = 54;
+  
+  // ... and there's a special keyword to delete keys
+  delete askTvSerie["name"];
+
+
+  
